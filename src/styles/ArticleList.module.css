@@ -1,0 +1,12 @@
+.listSection {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 1.5rem 0;
+}

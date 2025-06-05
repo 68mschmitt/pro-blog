@@ -1,0 +1,35 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem 0.5rem 1.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
