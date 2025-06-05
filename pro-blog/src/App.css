@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.article-header-link:hover {
+    cursor: pointer;
+}
